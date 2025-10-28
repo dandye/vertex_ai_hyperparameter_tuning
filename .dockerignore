@@ -1,0 +1,83 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Documentation
+*.md
+README.md
+CLAUDE.md
+docs/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Testing
+tests/
+test/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Model artifacts (build fresh in container)
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+models/
+runs/
+tensorboard/
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Local development files
+.env
+.env.local
+experiments/
+outputs/
+artifacts/
+
+# Google Cloud credentials (never include in containers)
+*.json
+.gcloud/
