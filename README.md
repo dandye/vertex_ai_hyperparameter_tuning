@@ -1,5 +1,7 @@
 # Scaling Hyperparameter Optimization with Vertex AI: From Academic Assignment to Production Pipeline
 
+![Image of Vertex AI TensorBoard ](https://github.com/user-attachments/assets/24541f79-eaaa-41e9-bcac-f7893f43ac15)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
